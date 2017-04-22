@@ -9,9 +9,10 @@ class MethodChainer
   end
 
   def reverse!
+    puts "reverse"
     @content = @content.reverse
     # self -- notice the difference when commented out
-    # What is returned?
+    # What is returned? THE VALUE OF @content
   end
 
   def caps!
